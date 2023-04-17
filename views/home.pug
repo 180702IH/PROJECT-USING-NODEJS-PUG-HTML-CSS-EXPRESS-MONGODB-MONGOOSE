@@ -1,0 +1,28 @@
+extends base.pug
+block scripts 
+    script(src='/static/index.js')
+block style 
+    style 
+        include ../static/style.css
+block content   
+        section#introsection 
+            div Welcome To Ishan's Website 
+            div.org Made using css,pug(html),node.js(express,nodemon).
+        section#missionsection 
+            h2 Our Mission 
+            div.card.one
+                h3 LEARN      
+            div.card.two
+                h3 INSPIRE      
+            div.card.three
+                h3 CHANGE      
+        section#sponsorsection 
+            h2 Our Sponsors 
+            .sponsors 
+                img(src="/static/logo.jpeg", alt="Sponsor image",class="spimage")
+                img(src="/static/logo1.jpeg", alt="Sponsor image",class="spimage")
+                img(src="/static/logo2.jpeg", alt="Sponsor image",class="spimage")
+                img(src="/static/logo3.png", alt="Sponsor image",class="spimage")
+block foot 
+    footer#footer 
+            |Responsiveness has not yet been added.Copyright © My Website.com | All rights reserved.

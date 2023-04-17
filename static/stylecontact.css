@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    margin: 10px 5px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myinput{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+.btn{
+    padding: 10px 15px;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color:rgb(123, 255, 255) ;
+    cursor: pointer;
+    margin: 10px;
+    outline: none;
+}
+.container{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(251, 201, 241);
+}
+#navbar li a:hover {
+    background-color:rgb(255, 119, 119);
+    color: aliceblue;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
